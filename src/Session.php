@@ -1,12 +1,12 @@
 <?php
 namespace Panadas\SessionPlugin;
 
-use Panadas\EventModule\Event;
+use Panadas\Event\Event;
 use Panadas\Framework\Application;
 use Panadas\Framework\ApplicationAwareInterface;
 use Panadas\Framework\ApplicationAwareTrait;
-use Panadas\SessionModule\DataStructure\SessionParams;
-use Panadas\SessionModule\Session as BaseSession;
+use Panadas\Session\DataStructure\SessionParams;
+use Panadas\Session\Session as BaseSession;
 
 class Session extends BaseSession implements ApplicationAwareInterface
 {
