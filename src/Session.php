@@ -34,6 +34,7 @@ class Session extends BaseSession implements ApplicationAwareInterface
             if (null !== $logger) {
                 $logger->info("Session not opened for insecure connection");
             }
+
             return;
         }
 
